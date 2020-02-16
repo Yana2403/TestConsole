@@ -9,8 +9,9 @@ namespace TestConsol
         
         static void Main(string[] args)
         {
-            ThreadPoolTests.Start();
+            //ThreadPoolTests.Start();
             //ThreadTests.Start();
+            SynchronizationTests.Start();
             Console.ReadLine();
             Console.WriteLine("Приложение должно быть закрыто");
         }
