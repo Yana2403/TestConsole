@@ -11,7 +11,9 @@ namespace TestConsol
         {
             //ThreadPoolTests.Start();
             //ThreadTests.Start();
-            SynchronizationTests.Start();
+            // SynchronizationTests.Start();
+            TAP.Start();
+
             Console.ReadLine();
             Console.WriteLine("Приложение должно быть закрыто");
         }
